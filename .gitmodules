@@ -1,0 +1,21 @@
+[submodule "cl-muth"]
+	path = cl-muth
+	url = https://github.com/borodust/cl-muth.git
+[submodule "cl-flow"]
+	path = cl-flow
+	url = https://github.com/borodust/cl-flow.git
+[submodule "bodge-ode"]
+	path = bodge-ode
+	url = https://github.com/borodust/bodge-ode.git
+[submodule "bodge-sndfile"]
+	path = bodge-sndfile
+	url = https://github.com/borodust/bodge-sndfile.git
+[submodule "bodge-nuklear"]
+	path = bodge-nuklear
+	url = https://github.com/borodust/bodge-nuklear.git
+[submodule "bodge-nanovg"]
+	path = bodge-nanovg
+	url = https://github.com/borodust/bodge-nanovg.git
+[submodule "cl-bodge"]
+	path = cl-bodge
+	url = https://github.com/borodust/cl-bodge.git
