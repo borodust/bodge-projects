@@ -25,3 +25,6 @@
 [submodule "bodge-blobs-darwin-x86-64"]
 	path = bodge-blobs-darwin-x86-64
 	url = git@github.com:borodust/bodge-blobs-darwin-x86-64.git
+[submodule "cl-autowrap"]
+	path = cl-autowrap
+	url = git@github.com:borodust/cl-autowrap.git
