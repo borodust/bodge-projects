@@ -19,3 +19,9 @@
 [submodule "cl-bodge"]
 	path = cl-bodge
 	url = https://github.com/borodust/cl-bodge.git
+[submodule "bodge-blobs"]
+	path = bodge-blobs
+	url = git@github.com:borodust/bodge-blobs.git
+[submodule "bodge-blobs-darwin-x86-64"]
+	path = bodge-blobs-darwin-x86-64
+	url = git@github.com:borodust/bodge-blobs-darwin-x86-64.git
