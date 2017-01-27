@@ -28,3 +28,6 @@
 [submodule "cl-autowrap"]
 	path = cl-autowrap
 	url = git@github.com:borodust/cl-autowrap.git
+[submodule "bodge-blobs-linux-x86-64"]
+	path = bodge-blobs-linux-x86-64
+	url = git@github.com:borodust/bodge-blobs-linux-x86-64.git
