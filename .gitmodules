@@ -34,3 +34,9 @@
 [submodule "cffi"]
 	path = cffi
 	url = git@github.com:borodust/cffi.git
+[submodule "bodge-blobs-windows-x86-64"]
+	path = bodge-blobs-windows-x86-64
+	url = git@github.com:borodust/bodge-blobs-windows-x86-64.git
+[submodule "bodge-glad"]
+	path = bodge-glad
+	url = git@github.com:borodust/bodge-glad.git
