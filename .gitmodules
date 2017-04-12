@@ -40,3 +40,6 @@
 [submodule "bodge-glad"]
 	path = bodge-glad
 	url = git@github.com:borodust/bodge-glad.git
+[submodule "trivial-gamekit"]
+	path = trivial-gamekit
+	url = git@github.com:borodust/trivial-gamekit.git
