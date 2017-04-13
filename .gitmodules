@@ -43,3 +43,6 @@
 [submodule "trivial-gamekit"]
 	path = trivial-gamekit
 	url = git@github.com:borodust/trivial-gamekit.git
+[submodule "bodge-blobs-support"]
+	path = bodge-blobs-support
+	url = git@github.com:borodust/bodge-blobs-support.git
