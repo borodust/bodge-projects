@@ -46,3 +46,6 @@
 [submodule "bodge-blobs-support"]
 	path = bodge-blobs-support
 	url = git@github.com:borodust/bodge-blobs-support.git
+[submodule "bodge-async"]
+	path = bodge-async
+	url = git@github.com:borodust/bodge-async.git
