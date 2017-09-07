@@ -2,7 +2,12 @@
 
 (ql:quickload "quickdist")
 
-(destructuring-bind (tar projects-dir dists-dir) (rest *posix-argv*)
+(defun extract-arguments ()
+  (let ((args (reverse *posix-argv*)))
+    (setf (cdddr args) nil)
+    (nreverse args)))
+
+(destructuring-bind (tar projects-dir dists-dir) (extract-arguments)
   (let ((quickdist:*gnutar* tar))
     (quickdist:quickdist :name "org.borodust.bodge"
                          :base-url "http://bodge.borodust.org/dist/"
