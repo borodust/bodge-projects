@@ -49,3 +49,6 @@
 [submodule "bodge-async"]
 	path = bodge-async
 	url = git@github.com:borodust/bodge-async.git
+[submodule "hello-gamekit"]
+	path = hello-gamekit
+	url = git@github.com:borodust/hello-gamekit.git
