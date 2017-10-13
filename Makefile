@@ -19,7 +19,7 @@ dist: prepare
 package: dist
 	cd $(BUILD_DIR) && zip -r dist.zip dist/
 
-deploy: build
+deploy:
 	scp $(BUILD_DIR)/dist.zip root.develserv:~/
 
 clean:

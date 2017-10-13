@@ -1,6 +1,6 @@
 (cl:in-package :cl-user)
 
-(ql:quickload "quickdist")
+(ql:quickload :quickdist)
 
 (defun extract-arguments ()
   (let ((args (reverse *posix-argv*)))
