@@ -55,3 +55,6 @@
 [submodule "bodge-autowrap"]
 	path = bodge-autowrap
 	url = git@github.com:borodust/bodge-autowrap.git
+[submodule "notalone"]
+	path = notalone
+	url = git@github.com:borodust/notalone.git
