@@ -58,3 +58,6 @@
 [submodule "notalone"]
 	path = notalone
 	url = git@github.com:borodust/notalone.git
+[submodule "simple-flow-dispatcher"]
+	path = simple-flow-dispatcher
+	url = git@github.com:borodust/simple-flow-dispatcher.git
