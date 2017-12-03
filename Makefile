@@ -21,6 +21,7 @@ package: dist
 
 deploy:
 	scp $(BUILD_DIR)/dist.zip root.develserv:~/
+	ssh root.develserv /root/update-dist.sh
 
 clean:
 	rm -rf $(BUILD_DIR)
