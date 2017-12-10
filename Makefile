@@ -6,6 +6,10 @@ SBCL=sbcl
 
 TAR=$(shell which gtar | which tar)
 
+DIST_NAME ?= "org.borodust.bodge"
+DIST_POSTFIX ?= ""
+
+DIST_FULL_NAME = $(DIST_NAME)$(DIST_POSTFIX)
 build: package
 
 prepare:
@@ -14,14 +18,14 @@ prepare:
 dist: prepare
 	$(SBCL) --load $(WORK_DIR)/dist.lisp \
 		--eval '(quit)' \
-		$(TAR) $(WORK_DIR) $(DIST_ROOT)
+		$(DIST_FULL_NAME) $(TAR) $(WORK_DIR) $(DIST_ROOT)
 
 package: dist
 	cd $(BUILD_DIR) && zip -r dist.zip dist/
 
 deploy:
 	scp $(BUILD_DIR)/dist.zip root.develserv:~/
-	ssh root.develserv /root/update-dist.sh
+	ssh root.develserv /root/update-dist.sh $(DIST_FULL_NAME)
 
 clean:
 	rm -rf $(BUILD_DIR)
