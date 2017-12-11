@@ -61,6 +61,3 @@
 [submodule "simple-flow-dispatcher"]
 	path = simple-flow-dispatcher
 	url = git@github.com:borodust/simple-flow-dispatcher.git
-[submodule "cl-bodge-support"]
-	path = cl-bodge-support
-	url = git@github.com:borodust/cl-bodge-support.git
