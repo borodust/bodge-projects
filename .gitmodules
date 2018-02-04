@@ -61,3 +61,39 @@
 [submodule "simple-flow-dispatcher"]
 	path = simple-flow-dispatcher
 	url = git@github.com:borodust/simple-flow-dispatcher.git
+[submodule "base-blobs"]
+	path = base-blobs
+	url = git@github.com:borodust/base-blobs.git
+[submodule "ode-blob"]
+	path = ode-blob
+	url = git@github.com:borodust/ode-blob.git
+[submodule "openal-blob"]
+	path = openal-blob
+	url = git@github.com:borodust/openal-blob.git
+[submodule "bodge-openal"]
+	path = bodge-openal
+	url = git@github.com:borodust/bodge-openal.git
+[submodule "bodge-glfw"]
+	path = bodge-glfw
+	url = git@github.com:borodust/bodge-glfw.git
+[submodule "async-blob"]
+	path = async-blob
+	url = git@github.com:borodust/async-blob.git
+[submodule "glfw-blob"]
+	path = glfw-blob
+	url = git@github.com:borodust/glfw-blob.git
+[submodule "sndfile-blob"]
+	path = sndfile-blob
+	url = git@github.com:borodust/sndfile-blob.git
+[submodule "nanovg-blob"]
+	path = nanovg-blob
+	url = git@github.com:borodust/nanovg-blob.git
+[submodule "glad-blob"]
+	path = glad-blob
+	url = git@github.com:borodust/glad-blob.git
+[submodule "nuklear-blob"]
+	path = nuklear-blob
+	url = git@github.com:borodust/nuklear-blob.git
+[submodule "claw"]
+	path = claw
+	url = git@github.com:borodust/claw.git
