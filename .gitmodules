@@ -97,3 +97,6 @@
 [submodule "claw"]
 	path = claw
 	url = git@github.com:borodust/claw.git
+[submodule "clutz"]
+	path = clutz
+	url = git@github.com:borodust/clutz.git
