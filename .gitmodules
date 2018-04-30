@@ -100,3 +100,6 @@
 [submodule "clutz"]
 	path = clutz
 	url = git@github.com:borodust/clutz.git
+[submodule "cl-svg-polygon"]
+	path = cl-svg-polygon
+	url = git@github.com:borodust/cl-svg-polygon.git
