@@ -103,3 +103,6 @@
 [submodule "cl-svg-polygon"]
 	path = cl-svg-polygon
 	url = git@github.com:borodust/cl-svg-polygon.git
+[submodule "ball-z-2d"]
+	path = ball-z-2d
+	url = git@github.com:borodust/ball-z-2d.git
