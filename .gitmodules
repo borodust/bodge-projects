@@ -106,3 +106,6 @@
 [submodule "ball-z-2d"]
 	path = ball-z-2d
 	url = https://github.com/borodust/ball-z-2d.git
+[submodule "bodge-chipmunk"]
+	path = bodge-chipmunk
+	url = https://github.com/borodust/bodge-chipmunk.git
