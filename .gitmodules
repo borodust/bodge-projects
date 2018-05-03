@@ -109,3 +109,6 @@
 [submodule "bodge-chipmunk"]
 	path = bodge-chipmunk
 	url = https://github.com/borodust/bodge-chipmunk.git
+[submodule "chipmunk-blob"]
+	path = chipmunk-blob
+	url = https://github.com/borodust/chipmunk-blob.git
