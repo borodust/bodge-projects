@@ -112,3 +112,6 @@
 [submodule "chipmunk-blob"]
 	path = chipmunk-blob
 	url = https://github.com/borodust/chipmunk-blob.git
+[submodule "doxy"]
+	path = doxy
+	url = https://github.com/borodust/doxy.git
