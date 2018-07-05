@@ -117,4 +117,4 @@
 	url = https://github.com/borodust/doxy.git
 [submodule "bodge-appkit"]
 	path = bodge-appkit
-	url = git@github.com:borodust/bodge-appkit.git
+	url = https://github.com/borodust/bodge-appkit.git
