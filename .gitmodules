@@ -118,3 +118,12 @@
 [submodule "bodge-appkit"]
 	path = bodge-appkit
 	url = https://github.com/borodust/bodge-appkit.git
+[submodule "assimp-blob"]
+	path = assimp-blob
+	url = https://github.com/borodust/assimp-blob.git
+[submodule "bodge-assimp"]
+	path = bodge-assimp
+	url = https://github.com/borodust/bodge-assimp.git
+[submodule "bodge-converter"]
+	path = bodge-converter
+	url = https://github.com/borodust/bodge-converter.git
