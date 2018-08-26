@@ -127,3 +127,6 @@
 [submodule "bodge-converter"]
 	path = bodge-converter
 	url = https://github.com/borodust/bodge-converter.git
+[submodule "hello-bodge-graphics"]
+	path = hello-bodge-graphics
+	url = git@github.com:borodust/hello-bodge-graphics.git
