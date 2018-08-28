@@ -130,3 +130,6 @@
 [submodule "hello-bodge-graphics"]
 	path = hello-bodge-graphics
 	url = https://github.com/borodust/hello-bodge-graphics.git
+[submodule "hello-bodge-physics"]
+	path = hello-bodge-physics
+	url = https://github.com/borodust/hello-bodge-physics.git
