@@ -133,3 +133,21 @@
 [submodule "hello-bodge-physics"]
 	path = hello-bodge-physics
 	url = https://github.com/borodust/hello-bodge-physics.git
+[submodule "bodge-utilities"]
+	path = bodge-utilities
+	url = https://github.com/borodust/bodge-utilities.git
+[submodule "bodge-ui"]
+	path = bodge-ui
+	url = https://github.com/borodust/bodge-ui.git
+[submodule "bodge-memory"]
+	path = bodge-memory
+	url = https://github.com/borodust/bodge-memory.git
+[submodule "bodge-math"]
+	path = bodge-math
+	url = https://github.com/borodust/bodge-math.git
+[submodule "bodge-host"]
+	path = bodge-host
+	url = https://github.com/borodust/bodge-host.git
+[submodule "bodge-concurrency"]
+	path = bodge-concurrency
+	url = https://github.com/borodust/bodge-concurrency.git
