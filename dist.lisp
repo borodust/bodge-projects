@@ -3,7 +3,7 @@
 (ql:quickload :quickdist)
 
 (defun extract-arguments ()
-  (rest (uiop:raw-command-line-arguments)))
+  (uiop:command-line-arguments))
 
 (destructuring-bind (dist-name tar projects-dir dists-dir &rest args)
     (extract-arguments)
