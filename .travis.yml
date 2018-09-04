@@ -11,12 +11,12 @@ env:
   - PATH: ~/bin/:$PATH
   - DIST_BUILD_DIR: /tmp/build
   - DIST_DIR: dist
-  - TARGET_ARCHIVE: $DIST_BUILD_DIR/$TRAVIS_BRANCH-$DIST_DIR-$TRAVIS_BUILD_NUMBER.zip
+  - TARGET_ARCHIVE: $DIST_BUILD_DIR/$TRAVIS_BRANCH-dist.zip
   - secure: "Fwd4rSTs/fcHzhUyMKyGuD108loHvBDlvoUui/DsE+OtvKDrkqV0rGXX+HS3h60VxkcV6vOfemykVAAzZh1lDG2UQfK2co2AGbADSRHV/V+EmCqsXkP6x7IsFJoMLxJ5kPy9FZoCHCCSjvlBQ32a1nQ8TkrdzkGdi9gA0/CIRCoD4raIBE5wlX6I9R8+IV+xi27z0PO62kuyTO5k7eQozTvcau36vYGdBq7fdnAJhEDYQJUhG4KBHIn+SS9VpjP8h2yChZOuz5vVbc0YWwvMOh/5N8Yy4BVhi1I0OrVzKnn4DWl3Y6RV2NqcnhQHxMV3hqwrubHR7JOUbWdSW3st6xFPH1ZvFerg0jkTMSAeYXZbI63JRSGMwj5P4aXBhCLbjJWz9p0iSt9Bk4IhkkZHxgq1K3MwgenkDHNBayGr1oEgSfz62kDTZp+z/aT58wOtwTuFOesHciqIPLzG9PQqW+8tSIBRBJusjGDljEh08gJ1bL8/i/QjuczmDAtf6yvPYkKRUc5WOY9qZdNFtrYZ87CBra5GGboH4mLWzpt7OTJJsaFuiB6kdPAQkub3yeTtgq73/C4+VTZKsQInxC3bxKDZ5yPOn+QdSVKerG6m5pUUZ5Xjgy2YSKn8g4GuU9pE6CJUgFth9DtBF27hII2qfDEuEcUoaWlvMVnNVP3FeVk="
 
 branches:
   only:
-    - master
+    - testing
     - stable
 
 git:
@@ -31,7 +31,7 @@ install:
 
 script:
   - >
-    if [[ "$TRAVIS_BRANCH" = "master" ]]; then
+    if [[ "$TRAVIS_BRANCH" = "testing" ]]; then
       DIST_NAME=org.borodust.bodge.testing
     else
       DIST_NAME=org.borodust.bodge
@@ -50,3 +50,5 @@ deploy:
   file: $TARGET_ARCHIVE
   skip_cleanup: true
   overwrite: true
+  on:
+    tags: true
