@@ -151,3 +151,6 @@
 [submodule "bodge-concurrency"]
 	path = bodge-concurrency
 	url = https://github.com/borodust/bodge-concurrency.git
+[submodule "bodge-canvas"]
+	path = bodge-canvas
+	url = https://github.com/borodust/bodge-canvas.git
