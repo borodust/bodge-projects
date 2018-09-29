@@ -157,3 +157,9 @@
 [submodule "cl-study"]
 	path = cl-study
 	url = https://github.com/borodust/cl-study.git
+[submodule "bodge-mecab"]
+	path = bodge-mecab
+	url = https://github.com/borodust/bodge-mecab.git
+[submodule "mecab-blob"]
+	path = mecab-blob
+	url = https://github.com/borodust/mecab-blob.git
