@@ -163,3 +163,9 @@
 [submodule "mecab-blob"]
 	path = mecab-blob
 	url = https://github.com/borodust/mecab-blob.git
+[submodule "bodge-tesseract"]
+	path = bodge-tesseract
+	url = https://github.com/borodust/bodge-tesseract.git
+[submodule "tesseract-blob"]
+	path = tesseract-blob
+	url = https://github.com/borodust/tesseract-blob.git
