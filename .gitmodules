@@ -175,3 +175,9 @@
 [submodule "hello-bodge"]
 	path = hello-bodge
 	url = https://github.com/borodust/hello-bodge.git
+[submodule "bodge-five"]
+	path = bodge-five
+	url = https://github.com/borodust/bodge-five.git
+[submodule "five-blob"]
+	path = five-blob
+	url = https://github.com/borodust/five-blob.git
