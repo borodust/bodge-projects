@@ -181,3 +181,6 @@
 [submodule "five-blob"]
 	path = five-blob
 	url = https://github.com/borodust/five-blob.git
+[submodule "bodge-canvas-ui"]
+	path = bodge-canvas-ui
+	url = https://github.com/borodust/bodge-canvas-ui.git
