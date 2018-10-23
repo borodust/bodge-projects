@@ -187,3 +187,6 @@
 [submodule "fistmage"]
 	path = fistmage
 	url = https://github.com/borodust/fistmage.git
+[submodule "bamboozy"]
+	path = bamboozy
+	url = https://github.com/borodust/bamboozy.git
