@@ -190,3 +190,9 @@
 [submodule "bamboozy"]
 	path = bamboozy
 	url = https://github.com/borodust/bamboozy.git
+[submodule "bodge-tesseract-v3"]
+	path = bodge-tesseract-v3
+	url = https://github.com/borodust/bodge-tesseract-v3.git
+[submodule "tesseract-blob-v3"]
+	path = tesseract-blob-v3
+	url = https://github.com/borodust/tesseract-blob-v3.git
