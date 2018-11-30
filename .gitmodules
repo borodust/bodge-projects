@@ -196,3 +196,12 @@
 [submodule "tesseract-blob-v3"]
 	path = tesseract-blob-v3
 	url = https://github.com/borodust/tesseract-blob-v3.git
+[submodule "bodge-ui-window"]
+	path = bodge-ui-window
+	url = https://github.com/borodust/bodge-ui-window.git
+[submodule "bodge-demo"]
+	path = bodge-demo
+	url = https://github.com/borodust/bodge-demo.git
+[submodule "hello-canvas-framebuffer"]
+	path = hello-canvas-framebuffer
+	url = https://github.com/borodust/hello-canvas-framebuffer.git

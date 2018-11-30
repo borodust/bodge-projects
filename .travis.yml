@@ -26,7 +26,7 @@ install:
   - curl -L http://bodge.borodust.org/files/install.sh | sh
   - ln -s $TRAVIS_BUILD_DIR ~/quicklisp/local-projects/
   - git clone https://github.com/borodust/quickdist ~/quicklisp/local-projects/quickdist
-  - cd $TRAVIS_BUILD_DIR && git submodule update --init
+  - cd $TRAVIS_BUILD_DIR && git submodule update --init --depth=1
 
 
 script:
