@@ -205,3 +205,6 @@
 [submodule "hello-canvas-framebuffer"]
 	path = hello-canvas-framebuffer
 	url = https://github.com/borodust/hello-canvas-framebuffer.git
+[submodule "trivial-docstring"]
+	path = trivial-docstring
+	url = https://github.com/borodust/trivial-docstring.git
