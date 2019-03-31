@@ -97,9 +97,6 @@
 [submodule "claw"]
 	path = claw
 	url = https://github.com/borodust/claw.git
-[submodule "clutz"]
-	path = clutz
-	url = https://github.com/borodust/clutz.git
 [submodule "cl-svg-polygon"]
 	path = cl-svg-polygon
 	url = https://github.com/borodust/cl-svg-polygon.git
