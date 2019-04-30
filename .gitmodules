@@ -205,3 +205,12 @@
 [submodule "trivial-docstring"]
 	path = trivial-docstring
 	url = https://github.com/borodust/trivial-docstring.git
+[submodule "trivial-gamekit-fistmachine"]
+	path = trivial-gamekit-fistmachine
+	url = https://github.com/borodust/trivial-gamekit-fistmachine.git
+[submodule "trivial-gamekit-input-handler"]
+	path = trivial-gamekit-input-handler
+	url = https://github.com/borodust/trivial-gamekit-input-handler.git
+[submodule "notalone-again"]
+	path = notalone-again
+	url = https://github.com/borodust/notalone-again.git
