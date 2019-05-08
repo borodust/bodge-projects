@@ -214,3 +214,6 @@
 [submodule "notalone-again"]
 	path = notalone-again
 	url = https://github.com/borodust/notalone-again.git
+[submodule "trivial-gamekit-postproc"]
+	path = trivial-gamekit-postproc
+	url = https://github.com/borodust/trivial-gamekit-postproc.git
