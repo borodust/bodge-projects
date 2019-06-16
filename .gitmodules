@@ -211,3 +211,6 @@
 [submodule "trivial-gamekit-postproc"]
 	path = trivial-gamekit-postproc
 	url = https://github.com/borodust/trivial-gamekit-postproc.git
+[submodule "bodge-inspector"]
+	path = bodge-inspector
+	url = https://github.com/borodust/bodge-inspector.git
