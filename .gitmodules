@@ -151,9 +151,6 @@
 [submodule "bodge-canvas"]
 	path = bodge-canvas
 	url = https://github.com/borodust/bodge-canvas.git
-[submodule "cl-study"]
-	path = cl-study
-	url = https://github.com/borodust/cl-study.git
 [submodule "bodge-mecab"]
 	path = bodge-mecab
 	url = https://github.com/borodust/bodge-mecab.git
@@ -181,9 +178,6 @@
 [submodule "bodge-canvas-ui"]
 	path = bodge-canvas-ui
 	url = https://github.com/borodust/bodge-canvas-ui.git
-[submodule "fistmage"]
-	path = fistmage
-	url = https://github.com/borodust/fistmage.git
 [submodule "bamboozy"]
 	path = bamboozy
 	url = https://github.com/borodust/bamboozy.git
