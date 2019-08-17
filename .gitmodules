@@ -214,3 +214,6 @@
 [submodule "bodge-inspector"]
 	path = bodge-inspector
 	url = https://github.com/borodust/bodge-inspector.git
+[submodule "trivial-fifo"]
+	path = trivial-fifo
+	url = https://github.com/borodust/trivial-fifo.git
