@@ -112,9 +112,6 @@
 [submodule "doxy"]
 	path = doxy
 	url = https://github.com/borodust/doxy.git
-[submodule "bodge-appkit"]
-	path = bodge-appkit
-	url = https://github.com/borodust/bodge-appkit.git
 [submodule "assimp-blob"]
 	path = assimp-blob
 	url = https://github.com/borodust/assimp-blob.git
