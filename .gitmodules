@@ -214,3 +214,9 @@
 [submodule "trivial-fifo"]
 	path = trivial-fifo
 	url = https://github.com/borodust/trivial-fifo.git
+[submodule "nuklear-renderer-blob"]
+	path = nuklear-renderer-blob
+	url = https://github.com/borodust/nuklear-renderer-blob.git
+[submodule "bodge-nuklear-renderer"]
+	path = bodge-nuklear-renderer
+	url = https://github.com/borodust/bodge-nuklear-renderer.git
