@@ -211,12 +211,15 @@
 [submodule "bodge-inspector"]
 	path = bodge-inspector
 	url = https://github.com/borodust/bodge-inspector.git
-[submodule "trivial-fifo"]
-	path = trivial-fifo
-	url = https://github.com/borodust/trivial-fifo.git
+[submodule "bodge-queue"]
+	path = bodge-queue
+	url = https://github.com/borodust/bodge-queue.git
 [submodule "nuklear-renderer-blob"]
 	path = nuklear-renderer-blob
 	url = https://github.com/borodust/nuklear-renderer-blob.git
 [submodule "bodge-nuklear-renderer"]
 	path = bodge-nuklear-renderer
 	url = https://github.com/borodust/bodge-nuklear-renderer.git
+[submodule "bodge-heap"]
+	path = bodge-heap
+	url = https://github.com/borodust/bodge-heap.git
