@@ -223,3 +223,15 @@
 [submodule "bodge-heap"]
 	path = bodge-heap
 	url = https://github.com/borodust/bodge-heap.git
+[submodule "bodge-libc-essentials"]
+	path = bodge-libc-essentials
+	url = https://github.com/borodust/bodge-libc-essentials.git
+[submodule "bodge-libc"]
+	path = bodge-libc
+	url = https://github.com/borodust/bodge-libc.git
+[submodule "cffi-c-ref"]
+	path = cffi-c-ref
+	url = https://github.com/borodust/cffi-c-ref.git
+[submodule "claw-utils"]
+	path = claw-utils
+	url = https://github.com/borodust/claw-utils.git
