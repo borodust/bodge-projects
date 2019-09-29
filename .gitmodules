@@ -235,3 +235,6 @@
 [submodule "claw-utils"]
 	path = claw-utils
 	url = https://github.com/borodust/claw-utils.git
+[submodule "bodge-host-native"]
+	path = bodge-host-native
+	url = https://github.com/borodust/bodge-host-native.git
