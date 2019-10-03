@@ -238,3 +238,9 @@
 [submodule "bodge-host-native"]
 	path = bodge-host-native
 	url = https://github.com/borodust/bodge-host-native.git
+[submodule "claw-support"]
+	path = claw-support
+	url = https://github.com/borodust/claw-support.git
+[submodule "c2ffi-blob"]
+	path = c2ffi-blob
+	url = https://github.com/borodust/c2ffi-blob.git
