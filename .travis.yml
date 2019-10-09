@@ -8,7 +8,7 @@ addons:
 
 env:
   global:
-  - PATH: ~/bin/:$PATH
+  - PATH: ~/.bodge/bin/:$PATH
   - DIST_BUILD_DIR: /tmp/build
   - DIST_DIR: dist
   - TARGET_ARCHIVE: $DIST_BUILD_DIR/$TRAVIS_BRANCH-dist.zip
@@ -37,7 +37,7 @@ script:
       DIST_NAME=org.borodust.bodge
     fi
   - >
-    lisp $TRAVIS_BUILD_DIR/dist.lisp $DIST_NAME $(which gtar | which tar)
+    lisp $TRAVIS_BUILD_DIR/dist $DIST_NAME $(which gtar | which tar)
     $TRAVIS_BUILD_DIR/ $DIST_BUILD_DIR/$DIST_DIR/
 
 before_deploy:
