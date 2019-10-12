@@ -2,7 +2,7 @@
 
 (ql:quickload '(:quickdist :cffi))
 
-(bind-parameters dist-name tar projects-dir dists-dir)
+(bind-arguments dist-name tar projects-dir dists-dir)
 
 (shout "~&DIST NAME: ~A~&TAR: ~A~&PROJECT DIR: ~A~&DIST DIR: ~A"
        dist-name tar projects-dir dists-dir)
