@@ -46,9 +46,9 @@
 [submodule "bodge-blobs-support"]
 	path = bodge-blobs-support
 	url = https://github.com/borodust/bodge-blobs-support.git
-[submodule "bodge-async"]
-	path = bodge-async
-	url = https://github.com/borodust/bodge-async.git
+[submodule "bodge-uv"]
+	path = bodge-uv
+	url = https://github.com/borodust/bodge-uv.git
 [submodule "hello-gamekit"]
 	path = hello-gamekit
 	url = https://github.com/borodust/hello-gamekit.git
@@ -76,9 +76,9 @@
 [submodule "bodge-glfw"]
 	path = bodge-glfw
 	url = https://github.com/borodust/bodge-glfw.git
-[submodule "async-blob"]
-	path = async-blob
-	url = https://github.com/borodust/async-blob.git
+[submodule "uv-blob"]
+	path = uv-blob
+	url = https://github.com/borodust/uv-blob.git
 [submodule "glfw-blob"]
 	path = glfw-blob
 	url = https://github.com/borodust/glfw-blob.git
