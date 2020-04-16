@@ -244,3 +244,6 @@
 [submodule "c2ffi-blob"]
 	path = c2ffi-blob
 	url = https://github.com/borodust/c2ffi-blob.git
+[submodule "bodge-tmx"]
+	path = bodge-tmx
+	url = https://github.com/borodust/bodge-tmx.git
