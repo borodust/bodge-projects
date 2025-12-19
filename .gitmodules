@@ -94,9 +94,6 @@
 [submodule "nuklear-blob"]
 	path = nuklear-blob
 	url = https://github.com/borodust/nuklear-blob.git
-[submodule "claw"]
-	path = claw
-	url = https://github.com/borodust/claw.git
 [submodule "cl-svg-polygon"]
 	path = cl-svg-polygon
 	url = https://github.com/borodust/cl-svg-polygon.git
@@ -247,3 +244,6 @@
 [submodule "bodge-tmx"]
 	path = bodge-tmx
 	url = https://github.com/borodust/bodge-tmx.git
+[submodule "claw-legacy"]
+	path = claw-legacy
+	url = https://github.com/borodust/claw-legacy.git
